@@ -1,0 +1,19 @@
+﻿Build started 2017/4/26 16:54:11.
+     1>Project "D:\mjy\projects\main\main\main.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(362,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\main.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\vc2013\platformsdk_7.1a\include\sal_supp.h(57): warning C4005: '__useHeader' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(2886) : see previous definition of '__useHeader'
+     1>d:\vc2013\platformsdk_7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\sal.h(2896) : see previous definition of '__on_failure'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\mjy\projects\main\Debug\main.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\mjy\projects\main\Debug\main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\mjy\projects\main\Debug\main.lib" /MACHINE:X86 Debug\main.obj
+         Debug\stdafx.obj
+         main.vcxproj -> D:\mjy\projects\main\Debug\main.exe
+     1>Done Building Project "D:\mjy\projects\main\main\main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80
